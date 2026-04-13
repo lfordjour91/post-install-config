@@ -25,16 +25,9 @@ This project focuses on the post-installation configuration of the osTicket help
 
 <h2>Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-The system was accessed through a web browser using the Admin/Analyst login page (http://localhost/osTicket/scp/login.php) and the End User portal (http://localhost/osTicket/). The differences between the Agent Panel and Admin Panel were reviewed to understand their respective functionalities.
-</p>
-<br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
 </p>
 <p>
 Roles were created in the Admin Panel under Agents → Roles to define permission levels. A “Supreme Admin” role was established to grant full system access and control over configurations.
@@ -42,7 +35,7 @@ Roles were created in the Admin Panel under Agents → Roles to define permissio
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="943" height="203" alt="Screenshot 2026-04-13 at 12 45 54 PM" src="https://github.com/user-attachments/assets/d47b06c7-bf6d-4640-bdd7-af3afa755527" />
 </p>
 <p>
 Departments were set up in the Admin Panel under Agents → Departments to control ticket visibility and organization. A “SysAdmins” department was created to handle system-related support requests.
@@ -50,23 +43,17 @@ Departments were set up in the Admin Panel under Agents → Departments to contr
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="950" height="146" alt="Screenshot 2026-04-13 at 12 45 34 PM" src="https://github.com/user-attachments/assets/b8afaa5c-d225-43e7-b830-f58288899fdd" />
 </p>
 <p>
 Teams were configured under Agents → Teams to allow collaboration across departments. An “Online Banking” team was created to group agents from different departments working on similar tasks or services.
 </p>
 <br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-User access settings were modified in the Admin Panel under Settings → User Settings. The option allowing unregistered users to create tickets was disabled, requiring users to register and log in before submitting support requests.
-</p>
-<br />
   
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="943" height="203" alt="Screenshot 2026-04-13 at 12 45 54 PM" src="https://github.com/user-attachments/assets/8686d777-3b9d-4993-b75c-9032844b1034" />
+  <img width="952" height="181" alt="Screenshot 2026-04-13 at 12 45 24 PM" src="https://github.com/user-attachments/assets/a8d3f0d4-59b0-46b1-871e-dafc6c2b6e3c" />
+
 </p>
 <p>
 Agents (support staff) were added through the Admin Panel under Agents → Add New. Two agents were created: Jane, assigned to the SysAdmins department, and John, assigned to the Support department.
@@ -74,7 +61,7 @@ Agents (support staff) were added through the Admin Panel under Agents → Add N
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="951" height="201" alt="Screenshot 2026-04-13 at 12 46 12 PM" src="https://github.com/user-attachments/assets/fb8e4b90-2b7f-419d-870b-6b870e60fc57" />
 </p>
 <p>
 End users (customers) were added through the Agent Panel under Users → Add New. Two users, Karen and Ken, were created to simulate customer interactions within the help desk system.
@@ -82,7 +69,7 @@ End users (customers) were added through the Agent Panel under Users → Add New
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="952" height="236" alt="Screenshot 2026-04-13 at 12 45 07 PM" src="https://github.com/user-attachments/assets/b1b25c28-4b9e-4f32-94c5-ea361912ec37" />
 </p>
 <p>
 Service Level Agreements (SLAs) were configured under Manage → SLA in the Admin Panel. Three SLA levels were created: Sev-A with a 1-hour response time and 24/7 schedule, Sev-B with a 4-hour response time and 24/7 schedule, and Sev-C with an 8-hour response time during business hours.
@@ -90,9 +77,7 @@ Service Level Agreements (SLAs) were configured under Manage → SLA in the Admi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+<img width="945" height="506" alt="Screenshot 2026-04-13 at 12 45 00 PM" src="https://github.com/user-attachments/assets/ae0b3f04-1773-4022-b379-fe2300eac380" />
 Help topics were created under Manage → Help Topics to categorize incoming tickets. Topics included Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset, and Other.
 </p>
 <br />
