@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Post-Install Configuration</h1>
+<h1>osTicket - osTicket Setup</h1>
 This project focuses on the post-installation configuration of the osTicket help desk system. After starting osTicket, administrations settings were changed, including roles, departments, teams, agents, users, SLAs, and help topics. The goal was to simulate a real-world IT support environment by organizing ticket workflows, defining access control, and establishing service-level expectations.<br />
 
 
