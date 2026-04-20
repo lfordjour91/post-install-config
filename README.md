@@ -39,7 +39,7 @@ This project focuses on the post-installation configuration of the osTicket help
  </ul>
 </p>
 <p>
-<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+<img width="1920" height="1080" alt="Artboard 33" src="https://github.com/user-attachments/assets/7d9f159c-4dbe-434d-8df9-bfdd156c6d31" />
 </p>
 <br />
 
@@ -83,10 +83,10 @@ This role has complete control over the system.
 <br />
 
 <p>
- <b>Step 4: Configure Departments</b>
- Departments control ticket visibility and routing.
-Path:
-Admin Panel → Agents → Departments
+ <b>Step 4: Configure Departments</b><br>
+ Departments control ticket visibility and routing.<br>
+Path:<br>
+Admin Panel → Agents → Departments<br>
 Actions:
   <ol>
 <li>Click “Add New Department”</li>
@@ -100,44 +100,44 @@ Departments separate responsibilities (e.g., IT vs Support).
 <br />
 
 <p>
- <b>Step 5: Configure Teams</b>
-Teams allow agents from different departments to collaborate.
-Path:
-Admin Panel → Agents → Teams
+ <b>Step 5: Configure Teams</b><br>
+Teams allow agents from different departments to collaborate.<br>
+Path:<br>
+Admin Panel → Agents → Teams<br>
 Actions:
   <ol>
 <li>Click “Add New Team”</li>
 <li>Name: Online Banking</li>
 <li>Add members from multiple departments</li>
   </ol>
-💡 Useful for cross-functional issues.
+Useful for cross-functional issues.
 <p>
 <img width="1920" height="1080" alt="Artboard 5" src="https://github.com/user-attachments/assets/c54911ed-5c7e-48d0-86f7-aea532700ec6" />
 </p>
 <br />
 
 <p>
- <b>Configure User Ticekt Permissions</b>
- Decide whether anyone can submit tickets.
-Path:
-Admin Panel → Settings → User Settings
-Actions:
+ <b>Step 6: Configure User Ticekt Permissions</b>
+ Decide whether anyone can submit tickets.<br>
+Path:<br>
+Admin Panel → Settings → User Settings<br>
+Actions:<br>
   <ul>
 <li>UNCHECK: Unregistered users can create tickets</li>
 <li>ENABLE: Require registration and login to create tickets</li>
   </ul>
-💡 This ensures only verified users can submit requests.
+This ensures only verified users can submit requests.
 <p>
 <img width="1920" height="1080" alt="Artboard 6" src="https://github.com/user-attachments/assets/ce23a2c8-d494-4c43-965e-ce770724c965" />
 </p>
 <br />
 
 <p>
- <b>Step 7:Congifure Agents</b>
- Agents are the workers handling tickets.
-Path:
-Admin Panel → Agents → Add New
-Create the following:
+ <b>Step 7: Configure Agents</b><br>
+ Agents are the workers handling tickets.<br>
+Path:<br>
+Admin Panel → Agents → Add New<br>
+Create the following:<br>
 Agent 1:
   <ul>
 <li>Name: Jane</li>
@@ -154,10 +154,10 @@ Agent 2:
 <br />
 
 <p>
- <b>Configure Users</b>
-Users are the people submitting tickets.
-Path:
-Agent Panel → Users → Add New
+ <b>Step 8: Configure Users</b><br>
+Users are the people submitting tickets.<br>
+Path:<br>
+Agent Panel → Users → Add New<br>
 Create:
   <ul>
 <li>Karen</li>
@@ -169,11 +169,11 @@ Create:
 <br />
 
 <p>
- <b>Configure SLA</b>
- SLAs define response/resolution time expectations.
-Path:
-Admin Panel → Manage → SLA
-Create:
+ <b>Step 9: Configure SLA</b><br>
+ SLAs define response/resolution time expectations.<br>
+Path:<br>
+Admin Panel → Manage → SLA<br>
+Create:<br>
 Sev-A (High Priority)
   <ul>
 <li>Grace Period: 1 hour</li>
@@ -189,18 +189,18 @@ Sev-C (Low Priority)
 <li>Grace Period: 8 hours</li>
 <li>Schedule: Business Hours</li>
           </ul>
-💡 SLAs help prioritize urgent issues.
+SLAs help prioritize urgent issues.
 <p>
 <img width="1920" height="1080" alt="Artboard 9" src="https://github.com/user-attachments/assets/197e4ed1-d125-4853-a1a5-988b3faf638e" />
 </p>
 <br />
 
 <p>
- <b>Configure Help Topics</b>
- Help Topics guide users when creating tickets.
-Path:
-Admin Panel → Manage → Help Topics
-Create:
+ <b>Step 10: Configure Help Topics</b><br>
+ Help Topics guide users when creating tickets.<br>
+Path:<br>
+Admin Panel → Manage → Help Topics<br>
+Create:<br>
   <ul>
 <li>Business Critical Outage</li>
 <li>Personal Computer Issues</li>
@@ -208,14 +208,14 @@ Create:
 <li>Password Reset</li>
 <li>Other</li>
   </ul>
-💡 These categorize tickets automatically.
+These categorize tickets automatically.
 <p>
  <img width="1920" height="1080" alt="Artboard 10" src="https://github.com/user-attachments/assets/9612008e-1fd1-4fb0-91f4-33e604578133" />
 </p>
 <br />
 
 <p>
- <b> FINAL RESULTS</b>
+ <b> FINAL RESULTS</b><br>
  After completing this setup:
   <ul>
 <li>Users can register and submit tickets</li>
