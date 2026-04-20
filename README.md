@@ -67,7 +67,7 @@ Before configuring anything, understand the difference:
  <b>Step 3: Configure Roles</b><br>
  Roles define what agents are allowed to do.
   
-<p style="font-weight: 500;">Path:</p><br>
+<p style="font-weight: 500;">Path:</p>
 <p style="font-weight: 500;">Admin Panel → Agents → Roles</p><br>
 Actions:
 <ol>
