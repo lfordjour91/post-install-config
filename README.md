@@ -26,6 +26,7 @@ This project focuses on the post-installation configuration of the osTicket help
 <h2>Configuration Steps</h2>
 
 <p>
+ <b>Step 1: Access The System</b>
  <ul>
 <li>Admin Login Page:</li>
   <ul>
@@ -43,6 +44,7 @@ This project focuses on the post-installation configuration of the osTicket help
 <br />
 
 <p>
+ <b>Step 2: Understand Admin Panel vs Agent Panel</b>
 Before configuring anything, understand the difference:
 <ul>
   <li>Admin Panel</li>
@@ -62,10 +64,11 @@ Before configuring anything, understand the difference:
 <br />
 
 <p>
+ <b>Step 3: Configure Roles</b><br>
  Roles define what agents are allowed to do.
   
-Path:
-Admin Panel → Agents → Roles
+<p style="font-weight: 500;">Path:<br>
+Admin Panel → Agents → Roles</p><br>
 Actions:
 <ol>
 <li>Click “Add New Role”</li>
@@ -79,6 +82,7 @@ This role has complete control over the system.
 <br />
 
 <p>
+ <b>Step 4: Configure Departments</b>
  Departments control ticket visibility and routing.
 Path:
 Admin Panel → Agents → Departments
@@ -95,6 +99,7 @@ Departments separate responsibilities (e.g., IT vs Support).
 <br />
 
 <p>
+ <b>Step 5: Configure Teams</b>
 Teams allow agents from different departments to collaborate.
 Path:
 Admin Panel → Agents → Teams
@@ -111,6 +116,7 @@ Actions:
 <br />
 
 <p>
+ <b>Configure User Ticekt Permissions</b>
  Decide whether anyone can submit tickets.
 Path:
 Admin Panel → Settings → User Settings
@@ -126,6 +132,7 @@ Actions:
 <br />
 
 <p>
+ <b>Step 7:Congifure Agents</b>
  Agents are the workers handling tickets.
 Path:
 Admin Panel → Agents → Add New
@@ -146,6 +153,7 @@ Agent 2:
 <br />
 
 <p>
+ <b>Configure Users</b>
 Users are the people submitting tickets.
 Path:
 Agent Panel → Users → Add New
@@ -160,6 +168,7 @@ Create:
 <br />
 
 <p>
+ <b>Configure SLA</b>
  SLAs define response/resolution time expectations.
 Path:
 Admin Panel → Manage → SLA
@@ -186,6 +195,7 @@ Sev-C (Low Priority)
 <br />
 
 <p>
+ <b>Configure Help Topics</b>
  Help Topics guide users when creating tickets.
 Path:
 Admin Panel → Manage → Help Topics
@@ -204,6 +214,7 @@ Create:
 <br />
 
 <p>
+ <b> FINAL RESULTS</b>
  After completing this setup:
   <ul>
 <li>Users can register and submit tickets</li>
