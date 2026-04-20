@@ -57,7 +57,7 @@ Before configuring anything, understand the difference:
   </ul>
 </ul>
 <p>
-<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+<img width="1920" height="1080" alt="Artboard 2" src="https://github.com/user-attachments/assets/0fae7a9a-1c03-4166-b743-9822e2589b83" />
 </p>
 <br />
 
@@ -74,7 +74,7 @@ Actions:
 </ol>
 This role has complete control over the system.
 <p>
-<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+<img width="1920" height="1080" alt="Artboard 3" src="https://github.com/user-attachments/assets/b712082e-e722-4a63-8f44-bd980af85e6b" />
 </p>
 <br />
 
@@ -90,7 +90,7 @@ Actions:
   </ol>
 Departments separate responsibilities (e.g., IT vs Support).
 <p>
-<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+<img width="1920" height="1080" alt="Artboard 4" src="https://github.com/user-attachments/assets/e1a19b93-bd3e-4c5a-ba2a-c8c54974ee3c" />
 </p>
 <br />
 
@@ -106,7 +106,7 @@ Actions:
   </ol>
 💡 Useful for cross-functional issues.
 <p>
-<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+<img width="1920" height="1080" alt="Artboard 5" src="https://github.com/user-attachments/assets/c54911ed-5c7e-48d0-86f7-aea532700ec6" />
 </p>
 <br />
 
@@ -121,7 +121,7 @@ Actions:
   </ul>
 💡 This ensures only verified users can submit requests.
 <p>
-<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+<img width="1920" height="1080" alt="Artboard 6" src="https://github.com/user-attachments/assets/ce23a2c8-d494-4c43-965e-ce770724c965" />
 </p>
 <br />
 
@@ -141,7 +141,7 @@ Agent 2:
 <li>Department: Support</li>
 </ul>
 <p>
-<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+<img width="1920" height="1080" alt="Artboard 7" src="https://github.com/user-attachments/assets/69d754b6-1436-438b-9df4-09c6cf1e9a1e" />
 </p>
 <br />
 
@@ -155,7 +155,7 @@ Create:
 <li>Ken</li>
   </ul>
 <p>
-<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+<img width="1920" height="1080" alt="Artboard 8" src="https://github.com/user-attachments/assets/8e2d23f2-3a5e-4aa3-b64a-3c89eb194880" />
 </p>
 <br />
 
@@ -181,7 +181,7 @@ Sev-C (Low Priority)
           </ul>
 💡 SLAs help prioritize urgent issues.
 <p>
-<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+<img width="1920" height="1080" alt="Artboard 9" src="https://github.com/user-attachments/assets/197e4ed1-d125-4853-a1a5-988b3faf638e" />
 </p>
 <br />
 
@@ -199,7 +199,7 @@ Create:
   </ul>
 💡 These categorize tickets automatically.
 <p>
-<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+ <img width="1920" height="1080" alt="Artboard 10" src="https://github.com/user-attachments/assets/9612008e-1fd1-4fb0-91f4-33e604578133" />
 </p>
 <br />
 
@@ -213,24 +213,6 @@ Create:
 <li>Teams allow collaboration across departments</li>
   </ul>
 <p>
-<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+
 </p>
 <br />
-
-<p>
- <ul>
-<li>Admin Login Page:</li>
-  <ul>
-<li><a href="http://localhost/osTicket/scp/login.php">Admin Login</a></li>
-  </ul>
-<li>End User Portal:</li>
-  <ul>
-<li><a href="http://localhost/osTicket/">End User Portal</a></li>
-  </ul>
- </ul>
-</p>
-<p>
-<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
-</p>
-<br />
-
