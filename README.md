@@ -8,8 +8,8 @@ This project focuses on the post-installation configuration of the osTicket help
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- <a href="https://portal.azure.com/">Microsoft Azure (Virtual Machines/Compute)</a>
+- Remote Desktop (Windows App)
 - Internet Information Services (IIS)
 - osTicket
 
