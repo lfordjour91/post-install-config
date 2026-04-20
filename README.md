@@ -45,6 +45,7 @@ This project focuses on the post-installation configuration of the osTicket help
 
 <p>
  <b>Step 2: Understand Admin Panel vs Agent Panel</b>
+ 
 Before configuring anything, understand the difference:
 <ul>
   <li>Admin Panel</li>
