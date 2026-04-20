@@ -25,59 +25,212 @@ This project focuses on the post-installation configuration of the osTicket help
 
 <h2>Configuration Steps</h2>
 
-
+<p>
+ <ul>
+<li>Admin Login Page:</li>
+  <ul>
+<li><a href="http://localhost/osTicket/scp/login.php">Admin Login</a></li>
+  </ul>
+<li>End User Portal:</li>
+  <ul>
+<li><a href="http://localhost/osTicket/">End User Portal</a></li>
+  </ul>
+ </ul>
+</p>
 <p>
 <img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
 </p>
+<br />
+
 <p>
-Roles were created in the Admin Panel under Agents → Roles to define permission levels. A “Supreme Admin” role was established to grant full system access and control over configurations.
+Before configuring anything, understand the difference:
+<ul>
+  <li>Admin Panel</li>
+  <ul>
+ <li>Used for system configuration</li>
+ <li>Manage roles, departments, SLAs, settings</li>
+  </ul>
+ <li>Agent Panel</li>
+  <ul>
+ <li>Used by support staff (agents)</li>
+ <li>Handle tickets, manage users, respond to issues</li>
+  </ul>
+</ul>
+<p>
+<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
 </p>
 <br />
 
 <p>
-<img width="943" height="203" alt="Screenshot 2026-04-13 at 12 45 54 PM" src="https://github.com/user-attachments/assets/d47b06c7-bf6d-4640-bdd7-af3afa755527" />
-</p>
-<p>
-Departments were set up in the Admin Panel under Agents → Departments to control ticket visibility and organization. A “SysAdmins” department was created to handle system-related support requests.
-</p>
-<br />
-
-<p>
-<img width="950" height="146" alt="Screenshot 2026-04-13 at 12 45 34 PM" src="https://github.com/user-attachments/assets/b8afaa5c-d225-43e7-b830-f58288899fdd" />
-</p>
-<p>
-Teams were configured under Agents → Teams to allow collaboration across departments. An “Online Banking” team was created to group agents from different departments working on similar tasks or services.
-</p>
-<br />
+ Roles define what agents are allowed to do.
   
+Path:
+Admin Panel → Agents → Roles
+Actions:
+<ol>
+<li>Click “Add New Role”</li>
+<li>Name the role: Supreme Admin</li>
+<li>Assign full permissions (all checkboxes)</li>
+</ol>
+This role has complete control over the system.
 <p>
-<img width="943" height="203" alt="Screenshot 2026-04-13 at 12 45 54 PM" src="https://github.com/user-attachments/assets/8686d777-3b9d-4993-b75c-9032844b1034" />
-  <img width="952" height="181" alt="Screenshot 2026-04-13 at 12 45 24 PM" src="https://github.com/user-attachments/assets/a8d3f0d4-59b0-46b1-871e-dafc6c2b6e3c" />
-
-</p>
-<p>
-Agents (support staff) were added through the Admin Panel under Agents → Add New. Two agents were created: Jane, assigned to the SysAdmins department, and John, assigned to the Support department.
-</p>
-<br />
-
-<p>
-<img width="951" height="201" alt="Screenshot 2026-04-13 at 12 46 12 PM" src="https://github.com/user-attachments/assets/fb8e4b90-2b7f-419d-870b-6b870e60fc57" />
-</p>
-<p>
-End users (customers) were added through the Agent Panel under Users → Add New. Two users, Karen and Ken, were created to simulate customer interactions within the help desk system.
+<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
 </p>
 <br />
 
 <p>
-<img width="952" height="236" alt="Screenshot 2026-04-13 at 12 45 07 PM" src="https://github.com/user-attachments/assets/b1b25c28-4b9e-4f32-94c5-ea361912ec37" />
-</p>
+ Departments control ticket visibility and routing.
+Path:
+Admin Panel → Agents → Departments
+Actions:
+  <ol>
+<li>Click “Add New Department”</li>
+<li>Name: SysAdmins</li>
+<li>Configure visibility (default settings are fine)</li>
+  </ol>
+Departments separate responsibilities (e.g., IT vs Support).
 <p>
-Service Level Agreements (SLAs) were configured under Manage → SLA in the Admin Panel. Three SLA levels were created: Sev-A with a 1-hour response time and 24/7 schedule, Sev-B with a 4-hour response time and 24/7 schedule, and Sev-C with an 8-hour response time during business hours.
+<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
 </p>
 <br />
 
 <p>
-<img width="945" height="506" alt="Screenshot 2026-04-13 at 12 45 00 PM" src="https://github.com/user-attachments/assets/ae0b3f04-1773-4022-b379-fe2300eac380" />
-Help topics were created under Manage → Help Topics to categorize incoming tickets. Topics included Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset, and Other.
+Teams allow agents from different departments to collaborate.
+Path:
+Admin Panel → Agents → Teams
+Actions:
+  <ol>
+<li>Click “Add New Team”</li>
+<li>Name: Online Banking</li>
+<li>Add members from multiple departments</li>
+  </ol>
+💡 Useful for cross-functional issues.
+<p>
+<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
 </p>
 <br />
+
+<p>
+ Decide whether anyone can submit tickets.
+Path:
+Admin Panel → Settings → User Settings
+Actions:
+  <ul>
+<li>UNCHECK: Unregistered users can create tickets</li>
+<li>ENABLE: Require registration and login to create tickets</li>
+  </ul>
+💡 This ensures only verified users can submit requests.
+<p>
+<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+</p>
+<br />
+
+<p>
+ Agents are the workers handling tickets.
+Path:
+Admin Panel → Agents → Add New
+Create the following:
+Agent 1:
+  <ul>
+<li>Name: Jane</li>
+<li>Department: SysAdmins</li>
+  </ul>
+Agent 2:
+<ul>
+<li>Name: John</li>
+<li>Department: Support</li>
+</ul>
+<p>
+<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+</p>
+<br />
+
+<p>
+Users are the people submitting tickets.
+Path:
+Agent Panel → Users → Add New
+Create:
+  <ul>
+<li>Karen</li>
+<li>Ken</li>
+  </ul>
+<p>
+<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+</p>
+<br />
+
+<p>
+ SLAs define response/resolution time expectations.
+Path:
+Admin Panel → Manage → SLA
+Create:
+Sev-A (High Priority)
+  <ul>
+<li>Grace Period: 1 hour</li>
+<li>Schedule: 24/7</li>
+  </ul>
+Sev-B (Medium Priority)
+      <ul>
+<li>Grace Period: 4 hours</li>
+<li>Schedule: 24/7</li>
+      </ul>
+Sev-C (Low Priority)
+          <ul>
+<li>Grace Period: 8 hours</li>
+<li>Schedule: Business Hours</li>
+          </ul>
+💡 SLAs help prioritize urgent issues.
+<p>
+<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+</p>
+<br />
+
+<p>
+ Help Topics guide users when creating tickets.
+Path:
+Admin Panel → Manage → Help Topics
+Create:
+  <ul>
+<li>Business Critical Outage</li>
+<li>Personal Computer Issues</li>
+<li>Equipment Request</li>
+<li>Password Reset</li>
+<li>Other</li>
+  </ul>
+💡 These categorize tickets automatically.
+<p>
+<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+</p>
+<br />
+
+<p>
+ After completing this setup:
+  <ul>
+<li>Users can register and submit tickets</li>
+<li>Tickets are categorized by help topics</li>
+<li>Agents are assigned based on departments</li>
+<li>SLAs enforce response times</li>
+<li>Teams allow collaboration across departments</li>
+  </ul>
+<p>
+<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+</p>
+<br />
+
+<p>
+ <ul>
+<li>Admin Login Page:</li>
+  <ul>
+<li><a href="http://localhost/osTicket/scp/login.php">Admin Login</a></li>
+  </ul>
+<li>End User Portal:</li>
+  <ul>
+<li><a href="http://localhost/osTicket/">End User Portal</a></li>
+  </ul>
+ </ul>
+</p>
+<p>
+<img width="619" height="199" alt="Screenshot 2026-04-13 at 3 28 49 PM" src="https://github.com/user-attachments/assets/bc4aae96-afd3-4034-9425-4ac41254d1c5" />
+</p>
+<br />
+
