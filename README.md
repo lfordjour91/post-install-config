@@ -66,6 +66,7 @@ Before configuring anything, understand the difference:
 
 <p>
  <b>Step 3: Configure Roles</b><br>
+ 
  Roles define what agents are allowed to do.
   
 <p style="font-weight: 500;">Path:</p>
@@ -84,9 +85,11 @@ This role has complete control over the system.
 
 <p>
  <b>Step 4: Configure Departments</b><br>
+ 
  Departments control ticket visibility and routing.<br>
 Path:<br>
 Admin Panel → Agents → Departments<br>
+
 Actions:
   <ol>
 <li>Click “Add New Department”</li>
@@ -101,9 +104,11 @@ Departments separate responsibilities (e.g., IT vs Support).
 
 <p>
  <b>Step 5: Configure Teams</b><br>
+ 
 Teams allow agents from different departments to collaborate.<br>
 Path:<br>
 Admin Panel → Agents → Teams<br>
+
 Actions:
   <ol>
 <li>Click “Add New Team”</li>
@@ -118,9 +123,12 @@ Useful for cross-functional issues.
 
 <p>
  <b>Step 6: Configure User Ticekt Permissions</b>
+ 
  Decide whether anyone can submit tickets.<br>
+ 
 Path:<br>
 Admin Panel → Settings → User Settings<br>
+
 Actions:<br>
   <ul>
 <li>UNCHECK: Unregistered users can create tickets</li>
@@ -134,9 +142,12 @@ This ensures only verified users can submit requests.
 
 <p>
  <b>Step 7: Configure Agents</b><br>
+ 
  Agents are the workers handling tickets.<br>
+ 
 Path:<br>
 Admin Panel → Agents → Add New<br>
+
 Create the following:<br>
 Agent 1:
   <ul>
@@ -155,9 +166,12 @@ Agent 2:
 
 <p>
  <b>Step 8: Configure Users</b><br>
+ 
 Users are the people submitting tickets.<br>
+
 Path:<br>
 Agent Panel → Users → Add New<br>
+
 Create:
   <ul>
 <li>Karen</li>
@@ -170,9 +184,12 @@ Create:
 
 <p>
  <b>Step 9: Configure SLA</b><br>
+ 
  SLAs define response/resolution time expectations.<br>
+ 
 Path:<br>
 Admin Panel → Manage → SLA<br>
+
 Create:<br>
 Sev-A (High Priority)
   <ul>
@@ -197,9 +214,12 @@ SLAs help prioritize urgent issues.
 
 <p>
  <b>Step 10: Configure Help Topics</b><br>
+ 
  Help Topics guide users when creating tickets.<br>
+ 
 Path:<br>
 Admin Panel → Manage → Help Topics<br>
+
 Create:<br>
   <ul>
 <li>Business Critical Outage</li>
